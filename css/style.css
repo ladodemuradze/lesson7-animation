@@ -1,0 +1,64 @@
+html, body {
+height: 100%;
+width: 100%;
+padding: 0.5%
+
+
+}
+
+.p-relative{
+ position: : relative;
+
+}
+.p-absolute{
+position: absolute;
+
+}
+.white-box {
+	height: 100%;
+/*	background-color: grey;*/
+
+}
+
+.logo{
+     height: 100%;
+    transform:translateX(300%);
+	display: inline-block;
+  position: relative;
+  right: -40%;
+  transform: translateX(-125%);
+  transition: right 2s, transform 5s;
+    }
+
+.logo hover {
+	right: 0%;
+	transform: translateX(0%);
+	background-color: white;
+}
+
+
+.title{
+	height: 100%;
+    transform:translateX(500%);
+	display: inline-block;
+  position: relative;
+  right: -60%;
+  transform: translateX(-250%);
+  transition: right 3s, transform 5s;
+  font-family: "ubuntu", sans-serif;
+  font-size: 500%;
+  color: red;
+ }
+ .wraper
+{ height: 100%;
+    transform:translateX(500%);
+	display: inline-block;
+  position: relative;
+  right: -65%;
+  transform: translateX(-170%);
+  transition: right 3s, transform 5s;
+  font-family: "ubuntu", sans-serif;
+  font-size: 200%;
+  color: aqua;
+
+}
